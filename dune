@@ -1,0 +1,4 @@
+(executable
+ (name cpf_bot)
+ (libraries cohttp-lwt-unix yojson lwt uri)
+ (preprocess (pps lwt_ppx)))
